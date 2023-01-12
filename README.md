@@ -1,5 +1,4 @@
 # CS475Lab0
-*Created by William Scarbro 1/11/2023*
 ### Goal:
 This lab reviews the fundamentals of project management in C including compiling, debugging, and testing programs. The projects in this class are difficult. Practicing these fundamentals will save you valuable time and effort when facing harder tasks.
 
@@ -26,3 +25,5 @@ To complete this lab you will likely need to know how to do the following
 3. Write for loops (or while loops) in Bash
 4. Use grep (I found the flags -o and -v helpful)
 5. Route stderr to stdout in Bash
+
+*Created by William Scarbro 1/11/2023*
