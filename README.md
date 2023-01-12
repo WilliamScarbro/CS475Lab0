@@ -16,3 +16,11 @@ Use the function *power_mod* as a primality test to identify the composite (not 
 ### Steps:
 1. Add a target **FLT_DEBUG** to the Makefile which enables the debug message in *FLT.c*. 
 2. Create a bash script which accepts a list of numbers as input and outputs **only** the composite numbers from the original list. Use **FLT** or **FLT_DEBUG** with a base of 2 to test if numbers are prime.
+3. As an extra challenge write two bash scripts which use **FLT** and **FLT_DEBUG** respectively.
+
+### Hints:
+To complete this lab you will likely need to know how to do the following
+1. Write Makefile rules
+2. Pass environment variables to gcc
+3. Write for loops (or while loops) in bash
+4. Use grep (I recommend the flags -o and -v)
