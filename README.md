@@ -1,5 +1,5 @@
 # CS475Lab0
-Goal: This lab reviews the fundamentals of project management in C including compiling, debugging, and testing programs. The projects in this class are difficult. Practicing these fundamentals will save you valuable time and effort when facing harder tasks.
+### Goal: This lab reviews the fundamentals of project management in C including compiling, debugging, and testing programs. The projects in this class are difficult. Practicing these fundamentals will save you valuable time and effort when facing harder tasks.
 
 ### References
 * [Makefiles](https://makefiletutorial.com/)
