@@ -31,7 +31,7 @@ int main(int argc, char** argv){
   int res = power_mod(base,power);
   if (res!=1){
     #ifdef DEBUG
-    fprintf(stderr,"%d^(%d-1)/=1, So %d must not be prime!\n",base,power,power);
+    fprintf(stderr,"DEBUG: %d^(%d-1)/=1, So %d must not be prime!\n",base,power,power);
     #endif
   }
   printf("FLT: base: %d power: %d result: %d\n",base,power,res);
