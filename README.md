@@ -1,4 +1,5 @@
 # CS475Lab0
+*Created by William Scarbro 1/11/2023*
 ### Goal:
 This lab reviews the fundamentals of project management in C including compiling, debugging, and testing programs. The projects in this class are difficult. Practicing these fundamentals will save you valuable time and effort when facing harder tasks.
 
