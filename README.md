@@ -10,7 +10,7 @@ This lab reviews the fundamentals of project management in C including compiling
 Fermat's Little Theorem (FLT) is an axiom in number theory. It states that for some prime p, a^(p-1) % p = 1. Conversely, when a number n is not prime there (usually) exists some witness w for which w^(n-1) % n /= 1.
 
 ### Task:
-Use the function *power_mod* as a primality test to identify the composite (not prime) numbers in the file *nums*. Do this without modifying the \*.c files, or by writting any additional C files.
+Use the function *power_mod* as a primality test to identify the composite (not prime) numbers in the file *nums*. Do this without modifying the FLT.c, or by writting any additional C files.
 *Hint:* 2 is a witness for all of the composite numbers in the file *nums*.
 
 ### Steps:
