@@ -1,5 +1,5 @@
 CC = gcc
-Targets = FLT FLT_DEBUG
+Targets = FLT 
 LIB_C = Debug.c
 LIB_H = Debug.h
 

@@ -1,5 +1,5 @@
-// Author: William Scarbro
-// Date: January 11, 2023
+// Author:  William Scarbro
+// Created: January 11, 2023
 
 
 #include <stdlib.h>
