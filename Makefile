@@ -5,9 +5,6 @@ LIB_H = Debug.h
 
 all: $(Targets)
 
-FLT_DEBUG: FLT.c 
-	$(CC) -o $@ $^ -DDEBUG
-
 FLT: FLT.c 
 	$(CC) -o $@ $^
 
