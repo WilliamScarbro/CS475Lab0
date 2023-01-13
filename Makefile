@@ -9,4 +9,4 @@ FLT: FLT.c
 	$(CC) -o $@ $^
 
 clean:
-	rm $(Targets)
+	rm -f $(Targets)
