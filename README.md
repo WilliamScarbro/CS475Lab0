@@ -7,7 +7,7 @@ This lab reviews the fundamentals of project management in C including compiling
 * [Bash](https://ss64.com/bash/)
 
 ### Background:
-Fermat's Little Theorem (FLT) is an axiom in number theory. It states that for some prime p, a^(p-1) % p = 1. Conversely, when a number n is not prime there (usually) exists some witness w for which w^(n-1) % n /= 1.
+Fermat's Little Theorem (FLT) is an axiom in number theory. It states that for some prime p and for all integers a, a^(p-1) % p = 1. Conversely, when a number n is not prime there (usually) exists some witness w for which w^(n-1) % n /= 1.
 
 ### Task:
 Use the function *power_mod* as a primality test to identify the composite (not prime) numbers in the file *nums*. Do this without modifying the *FLT.c*, or by writting any additional C files.
@@ -15,7 +15,7 @@ Use the function *power_mod* as a primality test to identify the composite (not 
 
 ### Steps:
 1. Add a target **FLT_DEBUG** to the Makefile which enables the debug message in *FLT.c*.
-2. Create a bash script which accepts a list of numbers as input and outputs **only** the composite numbers from the original list. Use **FLT** or **FLT_DEBUG** with a base of 2 to test if numbers are prime.
+2. Create a Bash script which accepts a list of numbers as input and outputs **only** the composite numbers from the original list. Use **FLT** or **FLT_DEBUG** with a base of 2 to test if numbers are prime according FLT.
 3. As an extra challenge write two bash scripts which use **FLT** and **FLT_DEBUG** respectively.
 
 ### Hints:
